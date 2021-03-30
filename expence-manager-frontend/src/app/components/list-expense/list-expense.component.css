@@ -1,0 +1,40 @@
+.searchbox{
+    float:right;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 50%;
+    background: white;
+    margin-bottom: 2%;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: justify;
+  }
+  
+  table td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(odd){background-color: #c5dddff1;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #258899;
+    color: white;
+  }
+  .addbutton{
+    padding: 5px;
+    background-color: #258899;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    color:white;
+  }

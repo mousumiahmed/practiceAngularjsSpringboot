@@ -1,0 +1,21 @@
+input.demo{
+    border:1px solid blue;
+    width:400px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width:50%;
+    margin: auto;
+}
+
+.content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width:500px;
+    margin: auto;
+}

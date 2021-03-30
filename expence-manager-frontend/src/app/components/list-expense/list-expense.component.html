@@ -1,0 +1,24 @@
+
+
+<input type="text" class="searchbox" [(ngModel)]="filters.keyword" placeholder="Search Expense" name="keyword" (input)="listExpenses()"/>
+
+<table>
+ <tr>
+    <th>Name</th>
+    <th>Cost</th>
+    <th>description</th>
+    <th>Action</th>
+  </tr>
+<tr *ngFor="let expense of expenses">
+<td> {{expense.expense}}</td>
+<td> {{expense.amount |currency:'INR'}}</td>
+<td>{{expense.description}}</td>
+<td><a class="addbutton" routerLink="/editexpense/{{expense.id}}">Edit</a></td>
+</tr>
+</table>   
+<div> 
+<p>
+<a class="addbutton" routerLink="/addexpense">Add Expense</a>
+</p>
+
+</div>

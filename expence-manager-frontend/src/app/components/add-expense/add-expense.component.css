@@ -1,0 +1,25 @@
+.addbutton{
+    padding: 5px;
+    background-color: #258899;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+  }
+  .delbutton{
+    padding: 5px;
+    background-color: #cf254f;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  input[type=text], textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  

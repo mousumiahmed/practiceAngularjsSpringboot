@@ -1,0 +1,19 @@
+
+<form (ngSubmit)="saveExpense()">
+    <input type="text"
+            name="expense"
+            [(ngModel)]="expense.expense"
+            placeholder="Enter Expense Name" /><br>
+
+    <input type="text"
+            name="amount"
+            [(ngModel)]="expense.amount"
+            placeholder="Enter amount Name" /><br>
+
+    <textarea type="text"
+            name="description"
+            [(ngModel)]="expense.description"
+            placeholder="Enter description Name" ></textarea><br>
+    <button class="addbutton" type="submit">Add Expense</button>
+    <button class="delbutton" *ngIf="expense.id" (click)="deleteExpense(expense.id)">Delete</button>
+</form>

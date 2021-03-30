@@ -1,0 +1,21 @@
+
+<style>
+
+</style>
+
+<!-- Toolbar -->
+<div class="card">
+  <span (click)="onNameClick(data.name,data.title)">Welcome   {{title}}</span>
+  <p>{{data.name}} {{data.title}}</p>
+  <!--<input class="demo" [value]="data.name"/>-->
+  <hr>
+  <div>Expense Tracker</div>
+  <hr>
+  <router-outlet></router-outlet>
+</div>
+
+<!--<app-list-expense></app-list-expense>-->
+
+
+
+
